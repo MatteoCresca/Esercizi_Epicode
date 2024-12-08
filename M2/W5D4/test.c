@@ -67,7 +67,6 @@ int main()
     printf("\nHai inserito i numeri: %i, %i, %i, %i\n", num1, num2, num3, num4);
     printf("La loro media è %.2f, oppure %i", media, media1);
 
-
     // Calcolo aree utlizzando media con cifre decimali
 
     // Calcolo area quadrato
@@ -88,7 +87,6 @@ int main()
     printf("Dato il tuo numero %.2f come lato l di un triangolo equilatero\n", media);
     printf("L'area del triangolo sarà %.2f\n", AreaT1);
 
-
     // Calcolo aree con numero arrotondato
 
     // Calcolo area quadrato
@@ -97,7 +95,7 @@ int main()
     printf("L'area di un quadrato con lato %i sarebbe: %.2f", media1, AreaQ2);
 
     // Calcolo area cerchio con diametro
-    float raggio2 = (media1 / 2);          // Imposto raggio cerchio
+    float raggio2 = (media1 / 2);         // Imposto raggio cerchio
     float draggio2 = (raggio2 * raggio2); // Elevo alla seconda il raggio
     float AreaC2 = (draggio2 * p_greco);  // Risolvo
     printf("\nDato il tuo numero %i come diametro di un cerchio\n", media1);
@@ -108,8 +106,6 @@ int main()
     float AreaT2 = (Rad3 * Quad2); // Calcolo area triangolo equilatero
     printf("Dato il tuo numero %i come lato l di un triangolo equilatero\n", media1);
     printf("L'area del triangolo sarà %.2f\n", AreaT2);
-
-
 
     return 0;
 }
