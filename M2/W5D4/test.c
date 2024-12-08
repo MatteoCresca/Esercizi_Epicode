@@ -87,7 +87,7 @@ int main()
     printf("Dato il tuo numero %.2f come lato l di un triangolo equilatero\n", media);
     printf("L'area del triangolo sarà %.2f\n", AreaT1);
 
-    // Calcolo aree con numero arrotondato
+    // Calcolo aree con media arrotondata
 
     // Calcolo area quadrato
     float AreaQ2 = (media1 * media1); // Elevo alla seconda il numero per il calcolo dell'area del quadrato
